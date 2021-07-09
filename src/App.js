@@ -45,7 +45,7 @@ function App() {
 
     const countDate = () => {
         // Discard the time and time-zone information.
-        
+
         let Date1 = new Date(selectedStartDate);
         let Date2 = new Date(selectedEndDate);
         let timeDiff = Date2.getTime() - Date1.getTime();
